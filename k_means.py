@@ -3,9 +3,6 @@ import numpy as np
 from matplotlib import pyplot as plt
 import matplotlib
 
-UBIT = 'poojaume'
-np.random.seed(sum([ord(c) for c in UBIT]))
-
 plt.rcParams['figure.figsize'] = (16, 9)
 plt.style.use('ggplot')
 
